@@ -31,7 +31,7 @@ public class StackLL<D> implements Stack<D>{
         }
         ListObject<D> temp = tail;
         ListObject<D> o = head;
-        for(int i=1;i<size-1;i++){
+        for(int i=0;i<size;i++){
             o = o.next;
         }
         size--;
